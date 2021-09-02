@@ -1,0 +1,22 @@
+{
+  "name": "objectsproject",
+  "version": "1.0.0",
+  "description": "1. Copy the repository link.\r 2. Open visual studio code.\r 3. Using clone \"repo-link\" command clone the repository.\r 4. Run the files inside the **test folder** to check the output.",
+  "main": "default.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Amrutha2668/ObjectsProject.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Amrutha2668/ObjectsProject/issues"
+  },
+  "homepage": "https://github.com/Amrutha2668/ObjectsProject#readme"
+}
