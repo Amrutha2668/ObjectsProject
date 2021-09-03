@@ -4,6 +4,7 @@ function pairs(obj) {
   return result;
 }
 
+// eslint-disable-next-line no-undef
 module.exports = {
   pairs: pairs,
 };

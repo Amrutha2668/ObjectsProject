@@ -9,6 +9,7 @@ function invert(obj) {
   return invertedObject;
 }
 
+// eslint-disable-next-line no-undef
 module.exports = {
   invert: invert,
 };

@@ -1,5 +1,4 @@
 function defaults(obj, defaultProps) {
-  let entries = Object.entries(defaultProps);
 
   // Iterating over object to find if any undefined value is present
   Object.entries(defaultProps).forEach(
@@ -8,6 +7,7 @@ function defaults(obj, defaultProps) {
   return obj;
 }
 
+// eslint-disable-next-line no-undef
 module.exports = {
   defaults: defaults,
 };

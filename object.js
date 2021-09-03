@@ -3,6 +3,7 @@ function mapObject(obj, cb) {
   return obj;
 }
 
+// eslint-disable-next-line no-undef
 module.exports = {
   mapObject: mapObject,
 };

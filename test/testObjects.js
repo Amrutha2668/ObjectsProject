@@ -1,3 +1,4 @@
+// eslint-disable-next-line no-undef
 const fetchMapObject = require("../object.js");
 
 const testObject = { name: "Bruce Wayne", age: 36, location: "Gotham" };
@@ -8,5 +9,5 @@ function cb(x) {
 }
 
 // Calling values()
-result = fetchMapObject.mapObject(testObject, cb);
+let result = fetchMapObject.mapObject(testObject, cb);
 console.log(result);

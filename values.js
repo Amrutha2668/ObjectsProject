@@ -6,6 +6,7 @@ function values(obj) {
   return result;
 }
 
+// eslint-disable-next-line no-undef
 module.exports = {
   values: values,
 };
